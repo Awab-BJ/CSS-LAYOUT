@@ -1,0 +1,301 @@
+.navbar{
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    position: fixed;
+}
+.dpl{
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+a:link{
+    color: grey;
+}
+
+a:visited{
+    color: grey;
+}
+
+li a:hover {
+    color: rgb(52, 161, 70);
+} 
+
+li p:hover {
+    color: rgb(52, 161, 70);
+} 
+
+
+a{
+    font-family: arial;
+    font-style: normal;
+    text-decoration: none;
+    color: gray;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    margin-top: 6px;
+}
+p{
+    font-family: arial;
+    color: grey;
+    
+}
+
+.centre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imm{
+    height: 70px;
+    width: 70px;
+}
+
+h1,h4{
+    color: rgb(40, 187, 167);
+    
+}
+
+.par{
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    flex-direction: row;
+    font-size: 18px;
+
+}
+
+.block{
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+.blockint{
+    width: 33%;
+    padding:10px;
+
+}
+.Forpatients{
+    border-radius: 10px;
+    background-color: rgb(40, 187, 167);
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+    color: white;
+    padding: 30px;
+    position: relative;
+    height: 365px;
+
+}
+
+.Forpatients p{
+    color: white;
+    font-size: 27px;
+    text-align: left;
+}
+h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.select{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 40px;
+    flex-direction: column;
+}
+
+
+.Fordoctors{
+    border-radius: 10px;
+    background-color: rgb(74, 101, 219);
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+    color: white;
+    padding: 30px;
+    position: relative;
+    height: 365px;
+
+}
+
+.Fordoctors p{
+    color: white;
+    font-size: 27px;
+    text-align: left;
+}
+
+.Forclinics{
+    border-radius: 10px;
+    background-color: rgb(6, 9, 24);
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+    color: white;
+    padding: 30px;
+    position: relative;
+    height: 365px;
+
+}
+
+.Forclinics p{
+    color: white;
+    font-size: 27px;
+    text-align: left;
+}
+.logo{
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+.leftlogo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 60px;
+    width: 33%;
+}
+.rightlogo{
+    display: flex;
+  
+    flex-wrap: wrap;
+    width: 67%;
+    align-content: stretch;
+    justify-content: space-between;
+   
+}
+.rightlogo button{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 15%;
+    background-color: white;
+}
+
+.image{
+    height: auto;
+    width: auto;
+}
+.bigimage{
+    height: 60px;
+    width: 120px;
+
+}
+ 
+.section{
+    display: flex;
+    margin-bottom: 80px;
+    background-color: rgb(202, 245, 240) ;
+    position: relative;
+    z-index: 1;
+}
+.section1{
+    margin-left: 130px;
+    width: 50%;
+    margin-top: 50px;
+    padding-right: 100px;
+
+}
+.imgarr{
+    position: absolute;
+    
+    margin-top: 270px;
+}
+.section2{
+    display: block;
+    width: 25%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.section3{
+    display: block;
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-right: 130px;
+}
+.undersection{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: row;
+    
+    align-items: center;
+    height: 260px;
+
+    padding-right: 10px;
+    margin: 10px;
+    
+}
+.usection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.undersection p{
+    font-size: 14px;
+}
+.centrecol{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.centrecol p{
+    font-size: 16px;
+    padding: 20px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 130px;
+    margin-right: 130px;
+    border: 0px;
+    margin-bottom: 20px;
+
+    
+}
+.footer1{
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 130px;
+    font-size: 13px;
+
+}
+.footer2{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 130px;
+    font-size: 13px;
+
+}
+
